@@ -27,11 +27,11 @@
   gap: 1rem;
 }
 .product-details h1 {
-    margin-bottom: 1rem;
+  margin-bottom: 1rem;
 }
 .product-details p {
-max-width: 72ch;
-font-size: 1rem;
+  max-width: 72ch;
+  font-size: 1rem;
 }
 
 .product-description,
@@ -40,7 +40,7 @@ font-size: 1rem;
   height: fit-content;
 }
 
-/* description */
+
 
 /* size */
 .product-size {
@@ -90,7 +90,6 @@ font-size: 1rem;
   background-color: #0d83a0dc;
   color: white;
 }
-
 
 .product-price h2 {
   font-size: 2rem;
