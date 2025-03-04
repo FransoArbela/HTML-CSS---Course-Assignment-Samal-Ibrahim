@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="cache-control" content="no-cache" />
+    <meta http-equiv="expires" content="0" />
+    <meta http-equiv="pragma" content="no-cache" />
+    <title>Rainy Days</title>
+    <link rel="stylesheet" href="/assets/src/style.css" />
+    <link rel="stylesheet" href="checkout.css" />
+    <script
+      src="https://kit.fontawesome.com/553a084866.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <!--  header -->
+    <header>
+      <div class="logo">
+        <img id="logo" src="/assets/img/logo.svg" alt="logo of rainy days" />
+      </div>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="/">Home</a></li>
+          <li><a href="/pages/products/index.html">Products</a></li>
+          <li><a href="/pages/about/index.html">About</a></li>
+          <li><a href="/pages/contact/index.html">Contact</a></li>
+        </ul>
+      </nav>
+
+      <input id="menu-toggle" type="checkbox" hidden />
+      <label for="menu-toggle" class="burger-label">
+        <span class="burger-icon"></span>
+        <span class="burger-icon"></span>
+        <span class="burger-icon"></span>
+      </label>
+
+      <div class="burger-menu">
+        <nav>
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/pages/products/index.html">Products</a></li>
+            <li><a href="/pages/about/index.html">About</a></li>
+            <li><a href="/pages/contact/index.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section>
+        <h1>SHOPPING CART</h1>
+        <div class="shopping-cart">
+          <!--  -->
+          <div class="products">
+            <div class="selected-product">
+              <div class="img-and-details">
+                <img src="/assets/img/mens-jacket.png" alt="product img" />
+                <div class="product-details">
+                  <h4>Unisex Rain Jacket</h4>
+                  <h5>Price NOK 1,199,00</h5>
+                  <h5>Color:</h5>
+                  <h5>Size: M</h5>
+                </div>
+              </div>
+
+              <div class="amount-of-product">
+                <div class="amount-buttons">
+                  <button>-</button>
+                  <h6>1</h6>
+                  <button>+</button>
+                </div>
+                <h5>NOK 1,199,00</h5>
+                <div class="delete">
+                  <p>Remove</p>
+                </div>
+              </div>
+            </div>
+            <div class="selected-product">
+              <div class="img-and-details">
+                <img src="/assets/img/mens-jacket.png" alt="product img" />
+                <div class="product-details">
+                  <h4>Unisex Rain Jacket</h4>
+                  <h5>Price NOK 1,199,00</h5>
+                  <h5>Color:</h5>
+                  <h5>Size: M</h5>
+                </div>
+              </div>
+
+              <div class="amount-of-product">
+                <div class="amount-buttons">
+                  <button>-</button>
+                  <h6>1</h6>
+                  <button>+</button>
+                </div>
+                <h5>NOK 1,199,00</h5>
+                <div class="delete">
+                  <p>Remove</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="shipping-wrapper">
+            <div class="shipping-info">
+              <h2>Shipping Information</h2>
+              <div class="contact-info">
+                <h3>Enter Your Details</h3>
+                <input type="text" placeholder="Email *" />
+                <input type="text" placeholder="First and Last name *" />
+                <input type="text" placeholder="Mobile phone number *" />
+              </div>
+
+              <div class="shipping-address">
+                <h3>Enter Shipping Address</h3>
+                <input type="text" placeholder="Street address *" />
+                <input
+                  type="text"
+                  placeholder="Additional street info (optional)"
+                />
+                <input type="text" placeholder="Zip/postal code *" />
+              </div>
+            </div>
+
+            <!--  -->
+            <div class="payment-methods">
+              <h2>Payment Methods</h2>
+
+              <input type="text" placeholder="Card number *" />
+              <input type="date" placeholder="Expiration date*" />
+              <input id="cvv" type="number" placeholder="CVV*" />
+              <div class="order-summary">
+                <h2>Order Summary</h2>
+
+                <div class="summary-list">
+                  <div class="shipping-tax">
+                    <h4>Estimate Shipping & Tax</h4>
+                    <p>1234</p>
+                  </div>
+
+                  <div class="subtotal">
+                    <h4>subtotal</h4>
+                    <p>1234</p>
+                  </div>
+                  <div class="estimated-tax">
+                    <h4>estimated-taxt</h4>
+                    <p>1234</p>
+                  </div>
+
+                  <div class="order-total">
+                    <h4>Order Total</h4>
+                    <p>1234</p>
+                  </div>
+                </div>
+                <button><a href="/pages/order_success/index.html">Go to Checkout</a></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- footer -->
+
+    <!-- footer -->
+    <footer>
+      <div class="footer-wrapper">
+        <div class="footer-container">
+          <!-- ---------------------------------------------->
+          <div class="footer-links">
+            <h4>GET THERE QUICK</h4>
+            <ul>
+              <li><a href="/">Home</a></li>
+
+              <li><a href="/pages/products/index.html">Products</a></li>
+
+              <li><a href="/pages/about/index.html">About</a></li>
+
+              <li><a href="/pages/contact/index.html">Contact</a></li>
+            </ul>
+          </div>
+
+          <!-- ---------------------------------------------->
+          <div class="footer-contact">
+            <h4>US ON SOCIAL MEDIA</h4>
+            <ul>
+              <li><a href="">Instagram</a></li>
+              <li><a href="">Facebook</a></li>
+              <li><a href="">Youtube</a></li>
+            </ul>
+          </div>
+          <!-- --------------------------------------------->
+          <div class="footer-signup">
+            <h4>SIGN UP TO OUR NEW-LETTER</h4>
+            <div class="email-input">
+              <input id="send-input" type="text" placeholder="Your email" />
+              <li>
+                <a href="#"
+                  ><img src="/assets/img/arrow_forward.svg" alt="search icon"
+                /></a>
+              </li>
+            </div>
+          </div>
+        </div>
+        <!-- --------------------------------------------->
+
+        <div class="footer-bottom">
+          <img id="payment-methods" src="/assets/Group 24.png" alt="" />
+          <div class="quick-contact">
+            <p>
+              Email: example@example.com <br />
+              Phone: +1 (555) 123-4567
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
+=======
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="cache-control" content="no-cache" />
+    <meta http-equiv="expires" content="0" />
+    <meta http-equiv="pragma" content="no-cache" />
+    <title>Rainy Days</title>
+    <link rel="stylesheet" href="/assets/src/style.css" />
+    <link rel="stylesheet" href="checkout.css" />
+    <script
+      src="https://kit.fontawesome.com/553a084866.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <!--  header -->
+    <header>
+      <div class="logo">
+        <img id="logo" src="/assets/img/logo.svg" alt="logo of rainy days" />
+      </div>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="/">Home</a></li>
+          <li><a href="/pages/products/index.html">Products</a></li>
+          <li><a href="/pages/about/index.html">About</a></li>
+          <li><a href="/pages/contact/index.html">Contact</a></li>
+        </ul>
+      </nav>
+
+      <input id="menu-toggle" type="checkbox" hidden />
+      <label for="menu-toggle" class="burger-label">
+        <span class="burger-icon"></span>
+        <span class="burger-icon"></span>
+        <span class="burger-icon"></span>
+      </label>
+
+      <div class="burger-menu">
+        <nav>
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/pages/products/index.html">Products</a></li>
+            <li><a href="/pages/about/index.html">About</a></li>
+            <li><a href="/pages/contact/index.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section>
+        <h1>SHOPPING CART</h1>
+        <div class="shopping-cart">
+          <!--  -->
+          <div class="products">
+            <div class="selected-product">
+              <div class="img-and-details">
+                <img src="/assets/img/mens-jacket.png" alt="product img" />
+                <div class="product-details">
+                  <h4>Unisex Rain Jacket</h4>
+                  <h5>Price NOK 1,199,00</h5>
+                  <h5>Color:</h5>
+                  <h5>Size: M</h5>
+                </div>
+              </div>
+
+              <div class="amount-of-product">
+                <div class="amount-buttons">
+                  <button>-</button>
+                  <h6>1</h6>
+                  <button>+</button>
+                </div>
+                <h5>NOK 1,199,00</h5>
+                <div class="delete">
+                  <p>Remove</p>
+                </div>
+              </div>
+            </div>
+            <div class="selected-product">
+              <div class="img-and-details">
+                <img src="/assets/img/mens-jacket.png" alt="product img" />
+                <div class="product-details">
+                  <h4>Unisex Rain Jacket</h4>
+                  <h5>Price NOK 1,199,00</h5>
+                  <h5>Color:</h5>
+                  <h5>Size: M</h5>
+                </div>
+              </div>
+
+              <div class="amount-of-product">
+                <div class="amount-buttons">
+                  <button>-</button>
+                  <h6>1</h6>
+                  <button>+</button>
+                </div>
+                <h5>NOK 1,199,00</h5>
+                <div class="delete">
+                  <p>Remove</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="shipping-wrapper">
+            <div class="shipping-info">
+              <h2>Shipping Information</h2>
+              <div class="contact-info">
+                <h3>Enter Your Details</h3>
+                <input type="text" placeholder="Email *" />
+                <input type="text" placeholder="First and Last name *" />
+                <input type="text" placeholder="Mobile phone number *" />
+              </div>
+
+              <div class="shipping-address">
+                <h3>Enter Shipping Address</h3>
+                <input type="text" placeholder="Street address *" />
+                <input
+                  type="text"
+                  placeholder="Additional street info (optional)"
+                />
+                <input type="text" placeholder="Zip/postal code *" />
+              </div>
+            </div>
+
+            <!--  -->
+            <div class="payment-methods">
+              <h2>Payment Methods</h2>
+
+              <input type="text" placeholder="Card number *" />
+              <input type="date" placeholder="Expiration date*" />
+              <input id="cvv" type="number" placeholder="CVV*" />
+              <div class="order-summary">
+                <h2>Order Summary</h2>
+
+                <div class="summary-list">
+                  <div class="shipping-tax">
+                    <h4>Estimate Shipping & Tax</h4>
+                    <p>1234</p>
+                  </div>
+
+                  <div class="subtotal">
+                    <h4>subtotal</h4>
+                    <p>1234</p>
+                  </div>
+                  <div class="estimated-tax">
+                    <h4>estimated-taxt</h4>
+                    <p>1234</p>
+                  </div>
+
+                  <div class="order-total">
+                    <h4>Order Total</h4>
+                    <p>1234</p>
+                  </div>
+                </div>
+                <button><a href="/pages/order_success/index.html">Go to Checkout</a></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- footer -->
+
+    <!-- footer -->
+    <footer>
+      <div class="footer-wrapper">
+        <div class="footer-container">
+          <!-- ---------------------------------------------->
+          <div class="footer-links">
+            <h4>GET THERE QUICK</h4>
+            <ul>
+              <li><a href="/">Home</a></li>
+
+              <li><a href="/pages/products/index.html">Products</a></li>
+
+              <li><a href="/pages/about/index.html">About</a></li>
+
+              <li><a href="/pages/contact/index.html">Contact</a></li>
+            </ul>
+          </div>
+
+          <!-- ---------------------------------------------->
+          <div class="footer-contact">
+            <h4>US ON SOCIAL MEDIA</h4>
+            <ul>
+              <li><a href="">Instagram</a></li>
+              <li><a href="">Facebook</a></li>
+              <li><a href="">Youtube</a></li>
+            </ul>
+          </div>
+          <!-- --------------------------------------------->
+          <div class="footer-signup">
+            <h4>SIGN UP TO OUR NEW-LETTER</h4>
+            <div class="email-input">
+              <input id="send-input" type="text" placeholder="Your email" />
+              <li>
+                <a href="#"
+                  ><img src="/assets/img/arrow_forward.svg" alt="search icon"
+                /></a>
+              </li>
+            </div>
+          </div>
+        </div>
+        <!-- --------------------------------------------->
+
+        <div class="footer-bottom">
+          <img id="payment-methods" src="/assets/Group 24.png" alt="" />
+          <div class="quick-contact">
+            <p>
+              Email: example@example.com <br />
+              Phone: +1 (555) 123-4567
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
